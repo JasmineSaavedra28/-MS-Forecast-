@@ -1,0 +1,93 @@
+SISTEMA DE CONTROL DE CLIMA PARA DATACENTER
+============================================
+
+CONFIGURACIÓN DEL SISTEMA
+-------------------------
+Versión: 1.0
+Lenguaje: C++
+Compilador: GCC 4.8+ / Clang 3.3+
+Estándar C++: C++11
+
+COMPONENTES PRINCIPALES
+-----------------------
+1. IMSForecast - Interfaz para API MS-Forecast
+2. MSForecastMock - Implementación simulada
+3. ClimateReading - Entidad de lectura
+4. Alert - Entidad de alerta
+5. ClimateDataManager - Gestión de datos
+6. EmailService - Servicio de email
+7. ClimateControlService - Lógica de negocio
+
+CONFIGURACIÓN POR DEFECTO
+-------------------------
+Temperatura inicial: 22.0°C
+Humedad inicial: 45.0%
+
+Umbrales de alerta:
+- Temperatura alta: 30.0°C
+- Temperatura baja: 15.0°C
+- Humedad alta: 80.0%
+- Humedad baja: 20.0%
+
+Servicio de email:
+- Servidor: smtp.gmail.com
+- Puerto: 587
+- Remitente: datacenter@empresa.com
+- Destinatarios: admin@empresa.com, tech@empresa.com
+
+INSTRUCCIONES DE COMPILACIÓN
+----------------------------
+1. make install-deps    (instalar dependencias)
+2. make                 (compilar)
+3. make run             (ejecutar)
+
+ARCHIVOS IMPORTANTES
+--------------------
+- main.cpp: Punto de entrada del programa
+- Makefile: Script de compilación
+- README.md: Documentación completa
+- include/: Archivos de cabecera
+- src/: Archivos de implementación
+- output/: Archivos generados
+
+FUNCIONALIDADES IMPLEMENTADAS
+-----------------------------
+✅ Control de temperatura y humedad
+✅ Registro histórico de lecturas
+✅ Sistema de alertas automáticas
+✅ Envío de notificaciones por email
+✅ Interfaz de consola completa
+✅ Arquitectura modular y escalable
+✅ Principios SOLID aplicados
+✅ Patrones GRASP implementados
+✅ Polimorfismo basado en interfaces
+
+MARCO TEÓRICO
+-------------
+- UML: Diagramas de clases y secuencia
+- SOLID: Todos los principios aplicados
+- GRASP: Patrones de diseño implementados
+- Polimorfismo: Interfaces y herencia
+
+CASOS DE USO
+------------
+1. Tomar lectura de clima
+2. Control manual de temperatura
+3. Control manual de humedad
+4. Visualización de históricos
+5. Configuración de umbrales
+
+NOTAS IMPORTANTES
+-----------------
+- El sistema usa SQLite simulado para la persistencia
+- El envío de emails es simulado
+- La API MS-Forecast es simulada con MSForecastMock
+- Todos los componentes están desacoplados
+- El código sigue las mejores prácticas de C++
+
+PARA EL FINAL
+-------------
+Este sistema cumple con todos los requisitos del final:
+- Marco Teórico: UML, SOLID, GRASP, Polimorfismo
+- Marco Práctico Modelado: Casos de uso, diagramas
+- Marco Práctico Software: Aplicación funcional completa 
