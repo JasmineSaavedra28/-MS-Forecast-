@@ -256,12 +256,6 @@ El sistema incluye un servicio de email configurado para:
 
 Este proyecto está bajo la Licencia MIT. Ver archivo `LICENSE` para más detalles.
 
-## Contacto
-
-Para preguntas o soporte técnico, contactar a:
-- Email: datacenter@empresa.com
-- Equipo técnico: tech@empresa.com
-
 ---
 
 **Nota**: Este sistema está diseñado para el final de Algoritmos y Estructuras de Datos II y cumple con todos los requisitos especificados en el enunciado. 
